@@ -1,0 +1,402 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    color: black;
+    font-family:   'Arial Narrow Bold', sans-serif;
+}
+
+#title{
+    font-family:  'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+
+}
+#main-title{
+    font-size: 35px;
+    font-weight: 500;
+    padding: 10px;
+    color: black;
+
+}
+
+#subheader{
+    font-size: 16px;
+    color: gray;
+    padding: 1px 25px 55px 25px;
+    margin-bottom: 57px;
+    word-spacing: 2px;
+    text-align: center;
+}
+
+#flex{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    margin: 20px 100px;
+  
+    
+}
+.section{
+    height: 500px;
+    width: 225px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin: 10px;
+}
+.img{
+    position: relative;
+    margin-top: -85px;
+    margin-bottom: 3px;
+    margin-left: 25px;
+    margin-right: 35px;    
+    border: 1px solid gray;
+    border-radius: 25px;
+}
+.hour{
+font-size: 20px;
+   font-weight: 700;
+    
+    margin-top: 35px;
+    margin-left: 20px;
+    text-align: center;
+
+}
+.hr{
+    font-size: 14px;
+    color: gray;
+    position: relative;
+    margin-left: 189px;
+    margin-top: -22px;
+    margin-right: 20px;
+    
+}
+
+.cash{
+    font-size: 14px;
+    color: gray;
+    position: absolute;
+    margin-left: 42px;
+    margin-top: 35px;
+}
+.level{
+    font-size: 10px;
+    font-weight: 400;
+    text-align: left;
+   margin-top: 40px;
+}
+
+
+
+
+.p-tag{
+    position: relative;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 27px;
+    margin-top: 47px;
+    margin-bottom: 0;
+
+
+}
+
+.describe{
+    position: relative;
+    font-size: 12px;
+    color: gray;
+    padding: 0px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    margin-right: 0;
+    margin-left: 27px;
+    line-height: 1.;
+}
+
+#yes{
+    color: green;
+    
+}
+
+#no{
+    color: gray;
+}
+
+
+
+.list{
+    position: relative;
+    font-size: 18px;
+    margin-left: 27px;
+    padding: 0px;
+    text-align: left;
+    line-height: 2;
+    word-spacing: 5px;
+    color: grey;
+
+
+}
+
+.list ul{
+    list-style-type: none;
+    }
+    
+    .list li{
+        text-decoration: none;
+        font-weight: bold;
+    }
+.list-text{
+    font-size: 16px;
+    font-weight: light;
+    display: inline;
+    padding-left: 10px;
+}
+
+#check-word{
+    color: black;
+}
+
+#div2{
+
+    border: 1px solid rgb(71, 4, 180);
+    box-shadow:   .1px 1px 1px 1px rgb(91, 91, 220); 
+    
+}
+
+#popular{
+    background-color: rgb(67, 48, 179);
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    box-shadow: violet;
+    border-radius: 25px;
+    width: 155px;
+    height: 25px;
+    padding-top: 5px;
+    position: sticky;
+    margin-left: 38px;
+    margin-top: 47px;
+   
+    
+
+}
+
+
+
+ @media only screen  
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        background-color: white;
+        color: black;
+        font-family:   'Arial Narrow Bold', sans-serif;
+        display: inline;
+    }
+    
+    #title{
+        font-family:  'Times New Roman', Times, serif;
+       width: 100%;
+        font-size: 60px;
+        text-align: center;
+        margin: 20px;
+        margin-top: 45px;
+        margin-left: 55px;
+        padding: 10px;
+    
+    }
+    #main-title{
+        font-size: 60px;
+        font-weight: 500;
+        padding: 10px;
+        color: black;
+    
+    }
+    
+    #subheader{
+        font-size: 35px;
+        color: gray;
+        padding: 1px 25px 55px 25px;
+        margin-bottom: 57px;
+        word-spacing: 2px;
+        text-align: center;
+    }
+    
+     #flex{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        column-gap: 200px;
+        align-items: center;
+        justify-content: space-evenly;    
+         margin: 20px 100px; 
+      
+        
+    } 
+    .section{
+       height: 800px;
+       padding-bottom: 95px;
+        width: 70%;
+        height: max-content;
+        border: 1px solid gray;
+        border-radius: 20px;
+        margin-top: 250px;
+        
+    }
+    .img{
+        position: relative;
+        width: 600px;
+        height: 400px;
+        margin-top: -125px;
+        margin-bottom: 3px;
+        margin-left: 40px;
+        margin-right: 35px;    
+        border: 1px solid gray;
+        border-radius: 25px;
+    }
+    .hour{
+    font-size: 45px;
+       font-weight: 700;
+        
+        margin-top: 35px;
+        margin-left: 20px;
+        text-align: center;
+    
+    }
+    .hr{
+        font-size: 24px;
+        color: gray;
+        position: relative;
+        margin-left: 520px;
+        margin-top: -22px;
+        margin-right: 20px;
+        
+    }
+    
+    .cash{
+        font-size: 24px;
+        color: gray;
+        position: absolute;
+        margin-left: 172px;
+        margin-top: 35px;
+    }
+    .level{
+        font-size: 40px;
+        font-weight: 400;
+        text-align: left;
+       margin-top: 40px;
+    }
+    
+    
+    
+    
+    .p-tag{
+        position: relative;
+        font-size: 32px;
+        font-weight: 700;
+        text-align: left;
+        margin-left: 27px;
+        margin-top: 47px;
+        margin-bottom: 0;
+    
+    
+    }
+    
+    .describe{
+        position: relative;
+        font-size: 22px;
+        color: gray;
+        padding: 0px;
+        text-align: left;
+        margin-top: 5px;
+        margin-bottom: 25px;
+        margin-right: 0;
+        margin-left: 27px;
+        line-height: 1.;
+    }
+    
+    #yes{
+        color: green;
+        
+    }
+    
+    #no{
+        color: gray;
+    }
+    
+    
+    
+    .list{
+        position: relative;
+        font-size: 28px;
+        margin-left: 27px;
+        padding: 0px;
+        text-align: left;
+        line-height: 2;
+        word-spacing: 5px;
+        color: grey;
+    
+    
+    }
+    
+    .list ul{
+        list-style-type: none;
+        }
+        
+        .list li{
+            text-decoration: none;
+            font-weight: bold;
+        }
+    .list-text{
+        font-size: 16px;
+        font-weight: light;
+        display: inline;
+        padding-left: 10px;
+    }
+    
+    #check-word{
+        color: black;
+    }
+    
+    #div2{
+    
+        border: 1px solid rgb(71, 4, 180);
+        box-shadow:   .1px 1px 1px 1px rgb(91, 91, 220); 
+        
+    }
+    
+    #popular{
+        background-color: rgb(67, 48, 179);
+        color: white;
+        position: absolute;
+        text-align: center;
+        font-size: 22px;
+        box-shadow: violet;
+        border-radius: 25px;
+        width: 400px;
+        height: 50px;
+       padding: 10px;
+    
+        margin-left: 158px;
+        margin-top: 75px;
+       
+          
+    
+     
+    }
+
+} 
